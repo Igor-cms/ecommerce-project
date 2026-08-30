@@ -1,6 +1,6 @@
 # E-commerce project 
 
-Loja online de café especial (specialty coffee): catálogo, carrinho, conta de cliente, canal atacado (wholesale) e painel administrativo. O frontend é uma SPA em React; checkout, produtos, pedidos e clientes passam por **Shopify**; autenticação, banco e Edge Functions ficam no **Supabase**. Integrações extras cobrem Stripe, FedEx, Xero e webhooks.
+Loja online: catálogo, carrinho, conta de cliente, canal atacado (wholesale) e painel administrativo. O frontend é uma SPA em React; checkout, produtos, pedidos e clientes passam por **Shopify**; autenticação, banco e Edge Functions ficam no **Supabase**. Integrações extras cobrem Stripe, FedEx, Xero e webhooks.
 
 ## O que o projeto faz
 
