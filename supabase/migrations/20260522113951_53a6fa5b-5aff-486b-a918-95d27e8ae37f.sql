@@ -1,0 +1,2 @@
+ALTER TABLE public.inventory_deductions ADD COLUMN IF NOT EXISTS reverted_at TIMESTAMPTZ;
+CREATE INDEX IF NOT EXISTS idx_inventory_deductions_order_reverted ON public.inventory_deductions(shopify_order_id, reverted_at);

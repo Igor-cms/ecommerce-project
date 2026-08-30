@@ -1,0 +1,43 @@
+project_id = "atsgfnxscrabkluepzkw"
+
+[functions]
+  [functions.auth-email-hook]
+    verify_jwt = false
+  [functions.check-email-exists]
+    verify_jwt = false
+  [functions.sync-inventory]
+    verify_jwt = false
+  [functions.wholesale-notification]
+    verify_jwt = false
+  [functions.get-stock-levels]
+    verify_jwt = false
+  [functions.xero-start-oauth]
+    verify_jwt = false
+  [functions.xero-oauth-callback]
+    verify_jwt = false
+  [functions.shopify-checkout-redirect]
+    verify_jwt = false
+  [functions.shopify-fulfillment]
+    verify_jwt = false
+  [functions.backfill-wholesale-customers]
+    verify_jwt = false
+  [functions.shopify-update-product]
+    verify_jwt = false
+  [functions.validate-discount-code]
+    verify_jwt = false
+  [functions.save-wholesale-vat]
+    verify_jwt = false
+  [functions.get-shopify-vat]
+    verify_jwt = false
+  [functions.admin-list-wholesale-vat]
+    verify_jwt = true
+  [functions.admin-update-shopify-customer]
+    verify_jwt = true
+  [functions.shopify-send-invoice]
+    verify_jwt = false
+  [functions.xero-send-invoice-email]
+    verify_jwt = false
+  [functions.xero-create-invoice]
+    verify_jwt = false
+  [functions.shopify-order-cancelled-webhook]
+    verify_jwt = false

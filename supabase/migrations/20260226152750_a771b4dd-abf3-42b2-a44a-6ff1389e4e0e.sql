@@ -1,0 +1,1 @@
+ALTER TABLE public.raw_materials ADD COLUMN shopify_product_id text;

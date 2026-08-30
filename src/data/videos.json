@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ben-intro",
+    "title": "Meet Ben - The Guy Behind The Beans",
+    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "/api/placeholder/400/300",
+    "category": "intro"
+  },
+  {
+    "id": "roasting-process",
+    "title": "How We Roast Our Championship Beans",
+    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "/api/placeholder/400/300", 
+    "category": "process"
+  },
+  {
+    "id": "brewing-v60",
+    "title": "Ben's V60 Brewing Guide",
+    "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "/api/placeholder/400/300",
+    "category": "brewing"
+  }
+]

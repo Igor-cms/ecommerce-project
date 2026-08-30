@@ -1,0 +1,31 @@
+{
+  "legendary": {
+    "title": "LEGENDARY",
+    "subtitle": "Premium specialty coffees.",
+    "products": [
+      "leg-pirineos-01",
+      "legendary-summit-blend",
+      "legendary-artisan-reserve",
+      "legendary-signature-roast"
+    ]
+  },
+  "everyday": {
+    "title": "EVERYDAY", 
+    "subtitle": "Your perfect daily cup.",
+    "products": [
+      "edy-pirineos-01",
+      "everyday-lunch-break", 
+      "everyday-weekend-warrior",
+      "everyday-all-nighter"
+    ]
+  },
+  "bensPicks": {
+    "title": "Ben's Picks",
+    "subtitle": "Coffee can be serious. We're not.",
+    "products": [
+      "leg-pirineos-01",
+      "leg-tshirt-ben-01",
+      "everyday-aeropress"
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* LEGENDARY EVERYDAY Design System */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Inter:wght@400;500;600&display=swap');
+
+@layer base {
+  :root {
+    /* LEGENDARY EVERYDAY Brand Colors */
+    --cream: 45 85% 95%; /* #F6F1E9 */
+    --pink: 350 58% 67%; /* #DF7489 */
+    --charcoal: 0 0% 17%; /* #2B2B2B */
+    --ink: 15 12% 29%; /* #4C3F3E */
+    --gold: 45 85% 68%; /* #F3C566 */
+
+    /* Theme variants - Default: Legendary (cream bg + pink accents) */
+    --background: var(--cream);
+    --foreground: var(--charcoal);
+
+    --card: var(--cream);
+    --card-foreground: var(--charcoal);
+
+    --popover: var(--cream);
+    --popover-foreground: var(--charcoal);
+
+    --primary: var(--pink);
+    --primary-foreground: var(--cream);
+
+    --secondary: var(--gold);
+    --secondary-foreground: var(--charcoal);
+
+    --muted: 45 75% 92%;
+    --muted-foreground: var(--ink);
+
+    --accent: var(--pink);
+    --accent-foreground: var(--cream);
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: var(--cream);
+
+    --border: 45 65% 85%;
+    --input: 45 65% 90%;
+    --ring: var(--pink);
+
+    --radius: 16px;
+
+    /* Brand Gradients */
+    --gradient-legendary: linear-gradient(135deg, hsl(var(--cream)), hsl(var(--pink)));
+    --gradient-everyday: linear-gradient(135deg, hsl(var(--pink)), hsl(var(--cream)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--pink)), hsl(var(--gold)));
+    
+    /* Shadows with letterpress effect */
+    --shadow-product: 0 20px 50px -10px hsl(var(--charcoal) / 0.35);
+    --shadow-card: 0 4px 16px -4px hsl(var(--charcoal) / 0.15), 0 2px 6px -2px hsl(var(--charcoal) / 0.08);
+    --shadow-letterpress: inset 0 2px 4px hsl(var(--charcoal) / 0.1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Everyday theme variant (pink bg + cream accents) */
+  .theme-everyday {
+    --background: var(--pink);
+    --foreground: var(--cream);
+    --card: var(--pink);
+    --card-foreground: var(--cream);
+    --primary: var(--cream);
+    --primary-foreground: var(--pink);
+    --accent: var(--gold);
+    --accent-foreground: var(--charcoal);
+  }
+
+  .dark {
+    --background: var(--charcoal);
+    --foreground: var(--cream);
+    --card: var(--ink);
+    --card-foreground: var(--cream);
+    --primary: var(--pink);
+    --primary-foreground: var(--charcoal);
+    --secondary: var(--gold);
+    --secondary-foreground: var(--charcoal);
+    --muted: 15 8% 25%;
+    --muted-foreground: var(--cream);
+    --border: 15 8% 35%;
+    --input: 15 8% 30%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: none;
+    touch-action: manipulation;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+  }
+
+  .font-display {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Prevent iOS zoom on input focus */
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+
+@layer components {
+  .btn-legendary {
+    @apply rounded-xl bg-primary text-primary-foreground px-8 py-4 font-semibold transition-all hover:bg-primary/90 hover:scale-105 active:scale-95;
+    box-shadow: var(--shadow-letterpress);
+  }
+
+  .btn-everyday {
+    @apply rounded-xl bg-secondary text-secondary-foreground px-8 py-4 font-semibold transition-all hover:bg-secondary/90 hover:scale-105 active:scale-95;
+  }
+
+  .gradient-legendary {
+    background: var(--gradient-legendary);
+  }
+
+  .gradient-everyday {
+    background: var(--gradient-everyday);
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-product {
+    box-shadow: var(--shadow-product);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .letterpress {
+    box-shadow: var(--shadow-letterpress);
+  }
+
+  .wobble {
+    @apply transition-transform hover:animate-pulse;
+  }
+
+  .cart-drawer {
+    @apply fixed inset-y-0 right-0 z-50 w-full sm:w-96 bg-card border-l shadow-2xl transform transition-transform;
+  }
+
+  /* Loading Animation Keyframes */
+  @keyframes whisk {
+    0%, 100% { transform: translateX(-50%) rotate(-5deg); }
+    50% { transform: translateX(-50%) rotate(5deg); }
+  }
+  
+  @keyframes swing {
+    0%, 100% { transform: translateX(-50%) rotate(-2deg); }
+    50% { transform: translateX(-50%) rotate(2deg); }
+  }
+
+  /* Safe area utilities */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .pb-safe-nav {
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-sm;
+  }
+
+
+  /* Mobile bottom nav spacer */
+  @media (max-width: 767px) {
+    .mobile-nav-spacer {
+      padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+    }
+    .mobile-nav-spacer:has(> .hero-no-pad) {
+      padding-bottom: 0;
+    }
+  }
+
+  /* Wholesale page animations */
+  @keyframes expand-line {
+    from { transform: scaleX(0); }
+    to { transform: scaleX(1); }
+  }
+
+  .animate-expand-line {
+    animation: expand-line 1.5s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  }
+
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .tracking-editorial {
+    letter-spacing: 0.12em;
+  }
+}
+
+/* Stroke for BECAUSE YOU ARE */
+.hero-stroke-all {
+  -webkit-text-stroke: 2px hsl(45 85% 95%);
+}
+
+@media (min-width: 768px) {
+  .hero-stroke-desktop {
+    -webkit-text-stroke: 2px hsl(45 85% 95%);
+  }
+}
+
+/* Print styles — Roast List */
+@media print {
+  /* Hide everything except the roast list content */
+  header, nav, footer,
+  .mobile-nav-spacer > :not(:last-child),
+  [data-sonner-toaster],
+  [role="dialog"] {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  * {
+    box-shadow: none !important;
+  }
+}

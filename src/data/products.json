@@ -1,0 +1,357 @@
+[
+  {
+    "id": "leg-pirineos-01",
+    "slug": "los-pirineos-legendary",
+    "name": "Los Pirineos",
+    "brand": "legendary",
+    "category": "coffee",
+    "price": 28,
+    "images": ["/assets/legendary-coffee-pirineos.jpg"],
+    "badges": ["Limited Release", "Premium", "Ben's Pick"],
+    "description": "Premium filter roast from the Pyrenees region",
+    "coffee": {
+      "process": "Washed",
+      "variety": "Bourbon",
+      "elevation_m": 1800,
+      "origin": "Los Pirineos",
+      "roast_style": "bold",
+      "flavor_notes": ["Mountain Berry", "Dark Chocolate", "Caramel"],
+      "grind_options": ["whole", "espresso", "filter"],
+      "weight_options_g": [250, 1000],
+      "subscriptionEligible": true,
+      "limitedRelease": true,
+      "benQuote": "This is what legends are made of. Buckle up."
+    },
+    "featured": true,
+    "bensPick": true
+  },
+  {
+    "id": "legendary-summit-blend",
+    "slug": "legendary-summit-blend",
+    "name": "Summit Blend",
+    "brand": "legendary",
+    "category": "coffee",
+    "price": 24.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Experimental"],
+    "description": "Excellence in every cup. Complex, rewarding, unforgettable.",
+    "coffee": {
+      "process": "Honey Process",
+      "variety": "Pink Bourbon",
+      "elevation_m": 1650,
+      "origin": "Colombia, Huila",
+      "roast_style": "balanced",
+      "flavor_notes": ["Stone Fruit", "Caramel", "Floral"],
+      "grind_options": ["whole", "espresso", "filter"],
+      "weight_options_g": [250, 1000],
+      "subscriptionEligible": true,
+      "limitedRelease": false,
+      "benQuote": "Every sip reminds me why we started this journey. Pure excellence."
+    }
+  },
+  {
+    "id": "legendary-artisan-reserve",
+    "slug": "legendary-artisan-reserve",
+    "name": "Artisan Reserve",
+    "brand": "legendary",
+    "category": "coffee",
+    "price": 32.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Limited", "Premium"],
+    "description": "The pinnacle of coffee. Reserved for true connoisseurs.",
+    "coffee": {
+      "process": "Carbonic Maceration",
+      "variety": "Pacamara",
+      "elevation_m": 2000,
+      "origin": "Ethiopia, Yirgacheffe",
+      "roast_style": "gentle",
+      "flavor_notes": ["Blueberry", "Wine", "Bergamot"],
+      "grind_options": ["whole", "filter"],
+      "weight_options_g": [250],
+      "subscriptionEligible": false,
+      "limitedRelease": true,
+      "benQuote": "This coffee broke the internet. Literally had our servers crash."
+    }
+  },
+  {
+    "id": "legendary-signature-roast",
+    "slug": "legendary-signature-roast",
+    "name": "Signature Roast",
+    "brand": "legendary",
+    "category": "coffee",
+    "price": 21.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Limited"],
+    "description": "Consistent excellence in every batch. Our signature blend.",
+    "coffee": {
+      "process": "Washed",
+      "variety": "SL28",
+      "elevation_m": 1750,
+      "origin": "Kenya, Nyeri",
+      "roast_style": "bold",
+      "flavor_notes": ["Black Currant", "Wine", "Citrus"],
+      "grind_options": ["whole", "espresso", "filter"],
+      "weight_options_g": [250, 1000],
+      "subscriptionEligible": true,
+      "limitedRelease": false,
+      "benQuote": "This is my go-to for focus. Gets me in the zone every time."
+    }
+  },
+  {
+    "id": "edy-pirineos-01",
+    "slug": "los-pirineos-everyday",
+    "name": "Los Pirineos",
+    "brand": "everyday",
+    "category": "coffee",
+    "price": 18,
+    "images": ["/assets/everyday-coffee-pirineos.jpg"],
+    "badges": ["Daily Driver", "Smooth", "Office Hero"],
+    "description": "Your perfect morning companion with balanced sweetness",
+    "coffee": {
+      "process": "Natural",
+      "variety": "Bourbon",
+      "elevation_m": 1200,
+      "origin": "Los Pirineos",
+      "roast_style": "balanced",
+      "flavor_notes": ["Milk Chocolate", "Hazelnut", "Brown Sugar"],
+      "grind_options": ["whole", "espresso", "filter"],
+      "weight_options_g": [250, 500, 1000],
+      "subscriptionEligible": true,
+      "limitedRelease": false,
+      "benQuote": "Smooth as my driving... which isn't saying much!"
+    },
+    "featured": true
+  },
+  {
+    "id": "everyday-lunch-break",
+    "slug": "everyday-lunch-break",
+    "name": "Lunch Break",
+    "brand": "everyday",
+    "category": "coffee",
+    "price": 14.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Balanced"],
+    "description": "Midday fuel. Bright, energizing, keeps you going strong.",
+    "coffee": {
+      "process": "Washed",
+      "variety": "Bourbon",
+      "elevation_m": 1350,
+      "origin": "Guatemala, Antigua",
+      "roast_style": "balanced",
+      "flavor_notes": ["Orange", "Milk Chocolate", "Vanilla"],
+      "grind_options": ["whole", "espresso", "filter"],
+      "weight_options_g": [250, 500, 1000],
+      "subscriptionEligible": true,
+      "limitedRelease": false,
+      "benQuote": "Perfect for those afternoon meetings when you need to stay sharp."
+    }
+  },
+  {
+    "id": "everyday-weekend-warrior",
+    "slug": "everyday-weekend-warrior",
+    "name": "Weekend Warrior",
+    "brand": "everyday",
+    "category": "coffee",
+    "price": 18.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Smooth"],
+    "description": "Time to relax and enjoy. Rich, smooth, weekend vibes.",
+    "coffee": {
+      "process": "Natural",
+      "variety": "Typica",
+      "elevation_m": 1450,
+      "origin": "Honduras, Marcala",
+      "roast_style": "gentle",
+      "flavor_notes": ["Berry", "Brown Sugar", "Cream"],
+      "grind_options": ["whole", "espresso", "filter"],
+      "weight_options_g": [250, 500, 1000],
+      "subscriptionEligible": true,
+      "limitedRelease": false,
+      "benQuote": "Saturday mornings were made for this coffee and slow sips."
+    }
+  },
+  {
+    "id": "everyday-all-nighter",
+    "slug": "everyday-all-nighter",
+    "name": "All Nighter",
+    "brand": "everyday",
+    "category": "coffee",
+    "price": 17.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Office Hero"],
+    "description": "When you need to push through. Strong, reliable, gets the job done.",
+    "coffee": {
+      "process": "Pulped Natural",
+      "variety": "Mundo Novo",
+      "elevation_m": 1100,
+      "origin": "Brazil, Sul de Minas",
+      "roast_style": "bold",
+      "flavor_notes": ["Dark Chocolate", "Toffee", "Spice"],
+      "grind_options": ["whole", "espresso", "filter"],
+      "weight_options_g": [250, 500, 1000],
+      "subscriptionEligible": true,
+      "limitedRelease": false,
+      "benQuote": "This got me through countless late nights working on the car."
+    },
+    "featured": true
+  },
+  {
+    "id": "leg-tshirt-ben-01",
+    "slug": "legendary-ben-car-tshirt",
+    "name": "Ben's Adventure Tee",
+    "brand": "legendary",
+    "category": "apparel",
+    "price": 35,
+    "images": ["/assets/legendary-tshirt-ben-car.jpg"],
+    "badges": ["Ben's Pick", "Limited Edition"],
+    "description": "Cartoon Ben character tee - adventure awaits",
+    "apparelOrMerch": {
+      "sizes": ["S", "M", "L", "XL"],
+      "material": "100% Cotton",
+      "color": "Cream"
+    },
+    "bensPick": true
+  },
+  {
+    "id": "leg-tshirt-pattern-01",
+    "slug": "legendary-pattern-tshirt",
+    "name": "Legendary Pattern Tee",
+    "brand": "legendary",
+    "category": "apparel",
+    "price": 35,
+    "images": ["/assets/legendary-tshirt-pattern.jpg"],
+    "badges": ["Limited Edition", "Pattern"],
+    "description": "Pink tee with repeating pattern - for the everyday legend",
+    "apparelOrMerch": {
+      "sizes": ["S", "M", "L", "XL"],
+      "material": "100% Cotton",
+      "color": "Pink"
+    }
+  },
+  {
+    "id": "leg-sweatpants-01",
+    "slug": "legendary-sweatpants",
+    "name": "Legendary Sweatpants",
+    "brand": "legendary",
+    "category": "apparel",
+    "price": 65,
+    "images": ["/assets/legendary-sweatpants.jpg"],
+    "badges": ["Comfort", "Streetwear"],
+    "description": "Premium sweatpants with LEGENDARY side print",
+    "apparelOrMerch": {
+      "sizes": ["S", "M", "L", "XL"],
+      "material": "80% Cotton, 20% Polyester",
+      "color": "Cream"
+    }
+  },
+  {
+    "id": "edy-hat-01",
+    "slug": "everyday-cap",
+    "name": "Everyday Cap",
+    "brand": "everyday",
+    "category": "apparel",
+    "price": 32,
+    "images": ["/assets/everyday-hat.jpg"],
+    "badges": ["Bestseller", "Essential"],
+    "description": "Pink cap with embroidered EVERYDAY logo - your essential headwear",
+    "apparelOrMerch": {
+      "sizes": ["One Size"],
+      "material": "Cotton",
+      "color": "Pink"
+    }
+  },
+  {
+    "id": "edy-sweatpants-01",
+    "slug": "everyday-sweatpants",
+    "name": "Everyday Sweatpants",
+    "brand": "everyday",
+    "category": "apparel",
+    "price": 65,
+    "images": ["/assets/everyday-sweatpants.jpg"],
+    "badges": ["Comfort", "Daily Driver"],
+    "description": "Pink sweatpants with EVERYDAY side print - comfort for every day",
+    "apparelOrMerch": {
+      "sizes": ["S", "M", "L", "XL"],
+      "material": "80% Cotton, 20% Polyester",
+      "color": "Pink"
+    }
+  },
+  {
+    "id": "everyday-travel-mug",
+    "slug": "everyday-travel-mug",
+    "name": "Travel Mug",
+    "brand": "everyday",
+    "category": "merch",
+    "price": 39.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Ben Approved"],
+    "description": "Your coffee companion for the road.",
+    "gearOrMachine": {
+      "dimensions": "12oz capacity",
+      "starterFriendly": true
+    }
+  },
+  {
+    "id": "legendary-v60-dripper",
+    "slug": "legendary-v60-dripper",
+    "name": "V60 Dripper Set",
+    "brand": "legendary",
+    "category": "gear",
+    "price": 89.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Ben Approved", "Championship Grade"],
+    "description": "Precision brewing for champions.",
+    "gearOrMachine": {
+      "dimensions": "Complete set with filters",
+      "starterFriendly": false
+    }
+  },
+  {
+    "id": "everyday-aeropress",
+    "slug": "everyday-aeropress",
+    "name": "AeroPress Go",
+    "brand": "everyday",
+    "category": "gear",
+    "price": 79.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Starter-friendly"],
+    "description": "Perfect coffee anywhere you go.",
+    "gearOrMachine": {
+      "dimensions": "Portable brewing kit",
+      "starterFriendly": true
+    },
+    "bensPick": true
+  },
+  {
+    "id": "legendary-espresso-machine",
+    "slug": "legendary-espresso-machine",
+    "name": "Championship Espresso Machine",
+    "brand": "legendary",
+    "category": "machines",
+    "price": 2499.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Championship Grade", "Ben Approved"],
+    "description": "Professional-grade espresso for serious drivers.",
+    "gearOrMachine": {
+      "power": "1400W",
+      "dimensions": "Professional dual boiler system",
+      "starterFriendly": false
+    }
+  },
+  {
+    "id": "everyday-coffee-grinder",
+    "slug": "everyday-coffee-grinder",
+    "name": "Daily Driver Grinder",
+    "brand": "everyday",
+    "category": "machines",
+    "price": 299.99,
+    "images": ["/api/placeholder/400/400"],
+    "badges": ["Starter-friendly", "Ben Approved"],
+    "description": "Consistent grinds for your daily brew.",
+    "gearOrMachine": {
+      "power": "250W",
+      "dimensions": "Burr grinder with timer",
+      "starterFriendly": true
+    }
+  }
+]
